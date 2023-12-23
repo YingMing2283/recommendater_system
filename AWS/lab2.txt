@@ -1,0 +1,17 @@
+ssh -i /path/key-pair-name.pem instance-user-name@instance-public-dns-name
+
+
+ec2-user@ec2-3-236-212-241.compute-1.amazonaws.com
+ubuntu@ec2-3-238-122-83.compute-1.amazonaws.com
+ubuntu@ec2-44-213-66-36.compute-1.amazonaws.com
+ubuntu@ec2-100-24-7-28.compute-1.amazonaws.com
+
+172.31.78.159 centralmanager
+172.31.65.21 submission
+172.31.20.124 executor
+curl -fsSL https://get.htcondor.org | sudo GET_HTCONDOR_PASSWORD="password" /bin/bash -s -- --no-dry-run --central-manager $central_manager_name centralmanager
+
+
+curl -fsSL https://get.htcondor.org | GET_HTCONDOR_PASSWORD="password" /bin/bash -s -- --no-dry-run --submit centralmanager
+
+curl -fsSL https://get.htcondor.org | GET_HTCONDOR_PASSWORD="password" /bin/bash -s -- --no-dry-run --execute centralmanager

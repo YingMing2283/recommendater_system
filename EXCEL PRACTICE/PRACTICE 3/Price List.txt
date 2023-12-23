@@ -1,0 +1,22 @@
+Name Course	Price
+Open Water Diver (10+ yrs)	$123
+Advanced Open Water Diver	$456
+Adventure Diver	$665
+Rescue Diver	$456
+DiveMaster	$789
+Emergency First Response Provider	$987	
+Boat Diver	$332
+Digital Underwater Photographer	$432
+Equipment Specialist	$543
+Night Diver	$564
+Wreck Diver	$346
+Deep Diver	$789
+Drift Diver	$878
+Enriched Air Diver	$908
+Rebreather Diver	$213
+Search and Recovery Diver	$456
+Underwater Naturalist	$229
+Underwater Navigator	$227
+Bubblemaker (8+ yrs)	$322
+Seal Team (8+ yrs)	$124
+Discover Scuba Diving (10+ yrs)	$567
